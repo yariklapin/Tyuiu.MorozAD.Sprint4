@@ -37,7 +37,7 @@ namespace Tyuiu.MorozAD.Sprint4.Task5.V13
 
             Console.WriteLine("\nМассив");
             for (int i = 0; i < rows; i++)
-                for (int j = 0; j < rows; j++)
+                for (int j = 0; j < col; j++)
                 {
                     Console.WriteLine($"{mtrx[i, j]} \t");
                 }
